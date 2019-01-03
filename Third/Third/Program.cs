@@ -63,7 +63,9 @@ namespace Third
                                 st = hopa1488.ToArray();
                                 length--;
                             }
-                        }break;
+                            else { Console.ForegroundColor = ConsoleColor.DarkRed; Console.WriteLine("\nСтудент не найден\n"); Console.ResetColor(); }
+                        }
+                        break;
 
                     case "3":
                         {
@@ -76,6 +78,7 @@ namespace Third
                                 if (st[i].Number == n) { numrem = i; check = true; }
                             }
                             if (check) { st[numrem].Edit(); }
+                            else { Console.ForegroundColor = ConsoleColor.DarkRed; Console.WriteLine("\nСтудент не найден\n");Console.ResetColor(); }
                         }
                         break;
 
