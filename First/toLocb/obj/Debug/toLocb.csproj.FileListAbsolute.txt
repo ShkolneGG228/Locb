@@ -1,0 +1,6 @@
+C:\work\charp\toLocb\toLocb\bin\Debug\toLocb.exe.config
+C:\work\charp\toLocb\toLocb\bin\Debug\toLocb.exe
+C:\work\charp\toLocb\toLocb\bin\Debug\toLocb.pdb
+C:\work\charp\toLocb\toLocb\obj\Debug\toLocb.csprojResolveAssemblyReference.cache
+C:\work\charp\toLocb\toLocb\obj\Debug\toLocb.exe
+C:\work\charp\toLocb\toLocb\obj\Debug\toLocb.pdb
