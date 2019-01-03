@@ -1,0 +1,6 @@
+C:\work\charp\Third\Third\bin\Debug\Third.exe.config
+C:\work\charp\Third\Third\bin\Debug\Third.exe
+C:\work\charp\Third\Third\bin\Debug\Third.pdb
+C:\work\charp\Third\Third\obj\Debug\Third.csprojResolveAssemblyReference.cache
+C:\work\charp\Third\Third\obj\Debug\Third.exe
+C:\work\charp\Third\Third\obj\Debug\Third.pdb
