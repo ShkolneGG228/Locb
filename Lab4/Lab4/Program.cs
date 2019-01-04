@@ -118,18 +118,16 @@ namespace Lab4
             do
             {
                 string day="", month="", year="", result="";
-                ch = false;
+                ch = true;
                 Console.WriteLine("День :");
                 s = Console.ReadLine();
-                if (IsNumberContains(s)) { if (Convert.ToInt32(s) < 32 && Convert.ToInt32(s) > 0) { ch = true;day = s; } }
-                ch = false;
+                if (IsNumberContains(s)) { if (Convert.ToInt32(s) > 31 || Convert.ToInt32(s) < 1) { ch = false;} day = s; }else { ch = false; }
                 Console.WriteLine("Месяц:(1 , 9 , 12)");
                 s = Console.ReadLine();
-                if (IsNumberContains(s)) { if (Convert.ToInt32(s) < 13 && Convert.ToInt32(s)>0) { ch = true;  month = s; } }
+                if (IsNumberContains(s)) { if (Convert.ToInt32(s) > 12 || Convert.ToInt32(s)<1) { ch = false; } month = s; }else { ch = false; }
                 Console.WriteLine("Год:(1976 , 1988 , 1965)");
                 s = Console.ReadLine();
-                ch = false;
-                if (IsNumberContains(s)) { if (Convert.ToInt32(s) > 1950 && Convert.ToInt32(s) < 2000) { ch = true; year = s;age = 2018 - Convert.ToInt32(year); } }
+                if (IsNumberContains(s)) { if (Convert.ToInt32(s) < 1950 || Convert.ToInt32(s) > 2000) { ch = false;} year = s; age = 2018 - Convert.ToInt32(year); }else { ch = false; }
                 result = day + "." + month + "." + year;
             } while (ch != true);
 
